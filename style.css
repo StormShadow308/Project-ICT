@@ -256,7 +256,7 @@ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 {
     margin-top: 16px;
     margin-bottom: 15px;
-text-align: center;
+    text-align: center;
 }
 .cta
 {
@@ -402,4 +402,30 @@ blog-left p
 .location iframe
 {
     width: 100%;
+}
+.contact-us
+{
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    padding-top:100px;
+}
+.contact-us-col:hover
+{
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.contact-us-col
+{
+    flex-basis: 31%;
+    background:#fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.contact-col
+{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
 }
