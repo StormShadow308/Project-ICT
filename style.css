@@ -146,7 +146,7 @@ h1
 }
 P
 {
-    color:#777;
+    color:#7c7c7c;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -428,4 +428,85 @@ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     margin-top:5%;
     display: flex;
     justify-content: space-between;
+}
+.Login-id 
+{
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+input[type="text"],
+input[type="password"]
+ {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(74, 94, 100);
+}
+button 
+{
+    display: inline-block;
+    text-decoration:none;
+    color:#fff;
+    border: 1px solid #26c7f8;
+    padding: 12px 34px;
+    font-size: 13px;
+    background:transparent;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+}
+input[type="text"]:focus
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 1s;
+}
+input[type="password"]:focus
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 1s;
+}
+input[type="text"]::placeholder
+{
+    color: antiquewhite;
+}
+input[type="password"]::placeholder
+{
+    color: antiquewhite;
+}
+button:hover 
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 1s;
+}
+.Login-id h2 
+{
+  text-align: center;
+  color: #fc8524;
+}
+.Login-id p
+{
+    text-align: center;
+    color: antiquewhite;
+}
+.Login-id a
+{
+    color: #fc8524;
+}
+.Secheader
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(10, 80, 85, 0.74),rgba(102, 33, 145, 0.562)),url(Updated/Login\ Background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
