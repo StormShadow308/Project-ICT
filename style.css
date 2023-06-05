@@ -433,12 +433,13 @@ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 {
   width: 300px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 70px;
   background-color: transparent;
   border-radius: 5px;
 }
 input[type="text"],
-input[type="password"]
+input[type="password"],
+input[type="email"]
  {
   width: 100%;
   padding: 10px;
@@ -473,11 +474,21 @@ input[type="password"]:focus
     background:#fc8524;
     transition: 1s;
 }
+input[type="email"]:focus
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 1s;
+}
 input[type="text"]::placeholder
 {
     color: antiquewhite;
 }
 input[type="password"]::placeholder
+{
+    color: antiquewhite;
+}
+input[type="email"]::placeholder
 {
     color: antiquewhite;
 }
@@ -501,6 +512,12 @@ button:hover
 {
     color: #fc8524;
 }
+.Login-id form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .Secheader
 {
     min-height: 100vh;
@@ -509,4 +526,115 @@ button:hover
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.ThirdHeader 
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(207, 160, 59, 0.747),rgba(184, 92, 164, 0.562)),url(Updated/Signup\ Background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.content 
+{
+    width: 400px;
+    margin: 0 auto;
+    padding: 70px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+input[type="submit"] 
+{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover 
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 1s;
+}
+.ThirdHeader label
+{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.ThirdHeader p
+{
+    text-align: center;
+    color: antiquewhite;
+}
+.ThirdHeader a
+{
+    color: #fc8524;
+}
+.ThirdHeader h1
+{
+  text-align: center;
+  color: #fc8524;
+}
+.ThirdHeader h3
+{
+  text-align: center;
+  color: #fc8524;
+}
+.ThirdHeader button
+{
+    text-decoration:none;
+    color:#fff;
+    border: 1px solid #f8af26;
+    padding: 12px 34px;
+    font-size: 13px;
+    background:transparent;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+}
+.ThirdHeader button:hover 
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 1s;
+}
+.ThirdHeader form
+{
+    flex-direction: column;
+    align-items: center;
+}
+.DOB 
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: rgb(74, 94, 100);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
+.calendar 
+{
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    margin-right: 0px;
+    color: antiquewhite;
+    position: relative;
+    padding-left: 75px;
+}
+.ThirdHeader .DOB h3
+{
+    padding-right: 100px;
+    color: antiquewhite;
+}
+.ThirdHeader .DOB h5
+{
+    padding-right: 100px;
+    color: antiquewhite;
 }
