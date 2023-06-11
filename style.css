@@ -827,7 +827,6 @@ input[type="submit"]:hover
     border: 1px solid transparent;
     border-radius: 5px;
 }
-.manage .registration-form form-group input
 .form-group input[type="submit"]
 {
     background-color: transparent;
@@ -841,4 +840,32 @@ input[type="submit"]:hover
     border: 1px solid#fc8524;
     background:#fc8524;
     transition: 1s;
+}
+.form-group label
+{
+    color: #e7d7b3;
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"]
+{
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.form-group input[type="email"]
+{
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.form-group 
+{
+    margin-bottom: 20px;
 }
