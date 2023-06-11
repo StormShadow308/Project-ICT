@@ -287,6 +287,7 @@ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background-color: transparent;
 }
 .footer h4
 {
@@ -727,4 +728,72 @@ input[type="submit"]:hover
     width: 100%;
     height: 100%;
     display: block;
+}
+.player-info 
+{
+    width: 400px;
+    margin: 0 auto;
+    padding: 70px;
+    background-color: transparent;
+    border-radius: 5px;
+    align-items: left;
+    margin-left: 0px;
+    margin-top: 0;
+}
+.player-info h2
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.player-information
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url("Updated/Third.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.player-information .nav-links a
+{
+    color: antiquewhite;
+}
+.player-info player-details 
+{
+    margin-bottom: 20px;
+}
+.player-info label
+{
+    background-color: #c7b358b6;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 12px;
+    text-align: center;
+}
+.info 
+{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.info span
+{
+    margin-left: 50px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.player-info h2
+{
+    align-content: left;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.player-info img
+{
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 30px;
 }
