@@ -695,7 +695,7 @@ input[type="submit"]:hover
 {
     background:rgba(250, 136, 29, 0.795);
 }
-.Magic h3
+.Magic a
 {
     width: 100%;
     font-weight: 500;
@@ -708,7 +708,7 @@ input[type="submit"]:hover
     opacity: 0;
     transition: 0.5s;
 }
-.Magic:hover h3
+.Magic:hover a
 {
     bottom: 50%;
     opacity: 1;
