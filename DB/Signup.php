@@ -18,8 +18,8 @@ else
 echo "<br>";
 $sql = "INSERT INTO person (name, dob, email) VALUES ('$username', '$dob', '$email')";
 $sqlaccount = "INSERT INTO account_login (email, password) VALUES ('$email', '$password')";
-$sqlpayment = "INSERT INTO Payment ('Transaction Name', Member_email, Amount, DOP, time) VALUES ('Membership Fee','$email', '1500', date('Y-m-d'), date('H:i:s'))";
-$sqlType = "INSERT INTO Player (email, MemberRenewalDate) VALUES ('$email', '$password')";
+$sqlpayment = "INSERT INTO Payment (Transaction_Name, Member_email, Amount, DOP, time) VALUES ('Membership Fee','$email', '1500', CURDATE(), CURTIME())";
+$sqlType = "INSERT INTO Player (PlayerEmail	, Member_Renewal_Date) VALUES ('$email', DATE_ADD(CURDATE(), INTERVAL 6 MONTH))";
 
 if (mysqli_query($conn, $sql)) {
     echo "Person Sucessfully inserted<br>";
@@ -45,7 +45,7 @@ if (mysqli_query($conn, $sqlpayment)) {
 }
 
 if (mysqli_query($conn, $sqlType)) {
-    echo "<br>Payment Sucessfully inserted<br>";
+    echo "<br>PlayerTYPE Sucessfully inserted<br>";
     //header("Location: ../Login.html");
 } else {
     echo "Error inserting";
