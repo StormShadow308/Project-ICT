@@ -981,3 +981,86 @@ input[type="submit"]:hover
     font-weight: bold;
     text-align: right;
 }
+.Complain
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("Updated/Messi.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Complain a
+{
+    color: #222;
+}
+.Complain-box
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.Complain-box h1
+{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 0px;
+    margin-bottom: 7px;
+}
+.Complain .form-group label
+{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #222;
+}
+.Complain .form-group input[type="text"],
+.form-group textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+.Complain-form
+{
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Complain .form-group
+{
+    margin-bottom: 20px; 
+}
+.Complain .form-group textarea
+{
+    height: 150px;
+}
+.Complain .form-submit button
+{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px
+}
+.Complain .form-submit button:hover
+{
+    background-color: #fc8524;
+}
+.Complain .form-submit
+{
+    text-align: center;
+}
+.Complain option
+{
+    background-color: antiquewhite;
+}
+.Complain .nav-links a
+{
+    color: #222;
+}
