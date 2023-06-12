@@ -1192,8 +1192,29 @@ input[type="submit"]:hover
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: antiquewhite;
+    width: 500px;
+    align-items: center;
+    margin-left: 120px;
 }
 .cont .search-bar
 {
     margin-bottom: 20px;
+}
+.cont .search-bar input
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.cont .page-title
+{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.cont player-list
+{
+    list-style-type: none;
+    padding: 0;
 }
