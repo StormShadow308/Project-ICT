@@ -37,11 +37,11 @@ if ($result->num_rows == 1) {
     // Login failed
     if (isset($_GET['error']) && $_GET['error'] == 1) {
         // Error parameter already present, redirect to login page with error
-        // header("Location: ../Login.php?error=1");
+        header("Location: ../Login.php?error=1");
         echo "Going to login";
     } else {
         // No error parameter or different error, redirect to login page with error
-        // header("Location: ../Login.php?error=2");
+        header("Location: ../Login.php?error=2");
         echo "Going to login";
     }
     exit();
