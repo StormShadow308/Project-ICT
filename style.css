@@ -1218,3 +1218,18 @@ input[type="submit"]:hover
     list-style-type: none;
     padding: 0;
 }
+.cont .player-item
+{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.cont .player-item h3
+{
+    margin: 0;
+}
+.cont .player-item p
+{
+    margin: 0;
+}
