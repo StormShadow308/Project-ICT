@@ -71,19 +71,19 @@ if ($_SESSION['loggedIn'] === true) {
         <div class="Selection">
             <img src="Updated/about.jpg">
             <div class="Magic">
-                <a href="#">Payment History</a>
+                <a href="Payment History.html">Payment History</a>
             </div>
         </div>
             <div class="MyChoice">
                 <img src="Updated/banner2.jpg">
                 <div class="Magic">
-                    <a href="#">Complain</a>
+                    <a href="Complain.html">Complain</a>
                 </div>
             </div>
             <div class="Selection">
                 <img src="Updated/Sixth.jpeg">
                 <div class="Magic">
-                    <a href="#">Team</a>
+                    <a href="Complain.html">Team</a>
                 </div>
             </div>
         </div>
