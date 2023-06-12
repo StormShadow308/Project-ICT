@@ -61,7 +61,7 @@ if ($_SESSION['loggedIn'] === true) {
         <h2>Login</h2>
         <br>
         <input type="email" id="email" name="email" placeholder="Username" required>
-        <input type="text" id="password" name="password" placeholder="Password" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
         <button type="submit">Login</button>
         <p>Don't have an account? <a href="Signup.html">Sign up</a></p>
       </form>
