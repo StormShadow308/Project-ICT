@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEAMS</title>
+          <meta name="viewport" content="with=device-width, initial-scale=1.0">
+          <title>Sports Website Design</title>
+          <link rel="stylesheet" href="style.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="MyTeam">
+        <nav>
+            <a href="index.html"><img src="Updated/Barcelona-Logo.png"></a>
+            <div class="nav-links">
+                <i class="fa fa-times"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about .html.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="course .html.html">TEAMS</a>
+                    </li>
+                    <li>
+                        <a href="blog.html.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact .html.html">CONTACT</a>
+                    </li>
+                    <li>
+                      <a href="Login.html">LOGOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="MyBox">
+            <h1 class="page-title">Team Filter</h1>
+            <div class="filter-section">
+              <div>
+                <label for="gameSelect">Select a Game:</label>
+                <select id="gameSelect" onchange="filterTeams()">
+                  <option value="all">All Games</option>
+                  <option value="cricket">Cricket</option>
+                  <option value="football">Football</option>
+                  <option value="basketball">Basketball</option>
+                  <option value="volleyball">Volleyball</option>
+                </select>
+              </div>
+              <div class="searchinput">
+                <label for="searchInput">Search Team:</label>
+                <input type="text" id="searchInput" onkeyup="filterTeams()" placeholder="Enter team name">
+              </div>
+            </div>
+            <div class="team-list">
+              <div class="team-item" data-game="cricket">
+                <h3>Cricket Team A</h3>
+                <p>Game: Cricket</p>
+                <p>Location: Stadium A</p>
+              </div>
+              <div class="team-item" data-game="cricket">
+                <h3>Cricket Team B</h3>
+                <p>Game: Cricket</p>
+                <p>Location: Stadium B</p>
+              </div>
+              <div class="team-item" data-game="football">
+                <h3>Football Team A</h3>
+                <p>Game: Football</p>
+                <p>Location: Stadium C</p>
+              </div>
+              <div class="team-item" data-game="basketball">
+                <h3>Basketball Team A</h3>
+                <p>Game: Basketball</p>
+                <p>Location: Stadium D</p>
+              </div>
+              <div class="team-item" data-game="volleyball">
+                <h3>Volleyball Team A</h3>
+                <p>Game: Volleyball</p>
+                <p>Location: Stadium E</p>
+              </div>
+            </div>
+          </div>
+    </section>
+</body>
+   <script>
+    function filterTeams() {
+      var gameSelect = document.getElementById("gameSelect");
+      var searchInput = document.getElementById("searchInput");
+      var selectedGame = gameSelect.value.toLowerCase();
+      var searchQuery = searchInput.value.toLowerCase();
+      var teamItems = document.getElementsByClassName("team-item");
+
+      for (var i = 0; i < teamItems.length; i++) {
+        var teamItem = teamItems[i];
+        var game = teamItem.getAttribute("data-game").toLowerCase();
+        var teamName = teamItem.querySelector("h3").textContent.toLowerCase();
+
+        if (
+          (selectedGame === "all" || game === selectedGame) &&
+          (searchQuery === "" || teamName.includes(searchQuery))
+        ) {
+          teamItem.style.display = "block";
+        } else {
+          teamItem.style.display = "none";
+        }
+      }
+    }
+  </script>
+</html>

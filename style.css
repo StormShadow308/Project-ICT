@@ -869,3 +869,296 @@ input[type="submit"]:hover
 {
     margin-bottom: 20px;
 }
+.Schedule-see
+{
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(59, 207, 138, 0.747),rgba(158, 52, 84, 0.562)),url(Updated/Seventh.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.schedule-table 
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.schedule-table th,
+.schedule-table td 
+{
+  padding: 10px;
+  border: 1px solid #072c2388;
+}
+.schedult-table th
+{
+    background-color: transparent;
+}
+.Payment-History
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("Updated/Benzema.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Naruto
+{
+    width: 95%;
+    margin: 0 auto;
+    padding: 3px;
+    margin-left: 5px;
+}
+.page-title 
+{
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e7d7b3;
+}
+.search-bar 
+{
+    margin-bottom: 20px;
+    width: 200px;
+    align-items: right;
+}
+.search-bar label
+{
+    color: #e7d7b3;
+    display: block;
+    margin-bottom: 5px;
+}
+.search-bar input[type="text"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fc8524;
+    border-radius: 5px;
+    background-color:transparent;
+}
+.search-bar input[type="text"]:focus
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 0.5s;
+}
+.search-bar input[type="text"]:placeholder
+{
+    color: #e7d7b3;
+}
+.search-bar
+{
+    align-items: left;
+    margin-left: 83%;
+    display: block;
+    margin-bottom: 100px;
+}
+.payment-table th 
+{
+    background-color: #e7d7b3;
+}
+.payment-table th,
+.payment-table td 
+{
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #e7d7b3;
+  font-weight: bold;
+}
+.payment-table 
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.payment-table td:last-child 
+{
+    text-align: right;
+}
+.total-amount 
+{
+    font-weight: bold;
+    text-align: right;
+}
+.Complain
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("Updated/Messi.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Complain a
+{
+    color: #222;
+}
+.Complain-box
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.Complain-box h1
+{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 0px;
+    margin-bottom: 7px;
+}
+.Complain .form-group label
+{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #222;
+}
+.Complain .form-group input[type="text"],
+.form-group textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+.Complain-form
+{
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Complain .form-group
+{
+    margin-bottom: 20px; 
+}
+.Complain .form-group textarea
+{
+    height: 150px;
+}
+.Complain .form-submit button
+{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px
+}
+.Complain .form-submit button:hover
+{
+    background-color: #fc8524;
+}
+.Complain .form-submit
+{
+    text-align: center;
+}
+.Complain option
+{
+    background-color: antiquewhite;
+}
+.Complain .nav-links a
+{
+    color: #222;
+}
+.MyTeam
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("Updated/Fourth.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.MyBox 
+{
+    max-width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+    align-items: left;
+    background-color: transparent;
+    justify-content: space-between;
+}
+.filter-section 
+{
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: antiquewhite;
+}
+.team-item:hover
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 0.5s;
+}
+.searchinput input[type="text"]
+{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    background-color: transparent;
+}
+.searchinput input[type="text"]::placeholder
+{
+    background-color: transparent;
+}
+.searchinput input[type="text"]:focus
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 0.5s;
+}
+.MyBox select
+{
+    color: antiquewhite;
+    background-color: transparent;
+}
+.MyBox option
+{
+    background-color: transparent;
+    color: black;
+}
+.MyBox .page-title
+{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.team-list 
+{
+    margin-top: 20px;
+}
+
+.team-item 
+{
+    background-color: transparent;
+    border: 1px solid antiquewhite;
+    width: 300px;
+    flex-basis: 31%;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px;
+}
+.team-item h3
+{
+    color: antiquewhite;
+    margin-left: 0px;
+    text-align: left;
+}
+.team-item p 
+{
+    margin: 0;
+    color: antiquewhite;
+}
