@@ -10,6 +10,18 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 <body>
+    <?php
+session_start();
+echo "Session ID: " . session_id();
+
+// Check if the user is already logged in
+if(isset($_SESSION['user_id'])) {
+    // Echo the session ID
+    echo "Session ID: " . session_id();
+} else {
+    echo "User is not logged in.";
+}
+?>
   <section class="FourthHeader">
     <nav>
       <a href="index.html"><img src="Updated/Barcelona-Logo.png"></a>
@@ -42,7 +54,7 @@
     <div class="Selection">
         <img src="Updated/Fourth.jpeg">
         <div class="Magic">
-            <a href="Player's Information.html">My Information</a>
+            <a href="Player's Information.php">My Information</a>
         </div>
     </div>
         <div class="MyChoice">

@@ -1,6 +1,13 @@
 <?php
 include("DB\PlayerInfo.php");
-print_r($row); // Print the $singleData array
+// session_start();
+echo "<br>";
+print_r($_SESSION);
+echo "<br>";
+echo $_SESSION['user_id'];
+echo $_SESSION['email'];
+
+// print_r($row); // Print the $singleData array
 $dob = $row['dob'];
 $currentDate = new DateTime();
 $birthDate = new DateTime($dob);

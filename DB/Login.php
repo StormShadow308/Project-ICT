@@ -7,12 +7,8 @@ print_r($_POST);
 echo "<br>";
 
 $conn = connectDatabase();
-
-if(!$conn)
-die("connection failed" .mysqli_connect_error());
-else
-echo "Connection Sucessful";
-echo "<br>";
+session_destroy();
+session_start();
 
 $stmt = $conn->prepare("SELECT * FROM account_login WHERE email = ? AND password = ?");
 $stmt->bind_param("ss", $email, $password);
@@ -22,8 +18,10 @@ $result = $stmt->get_result();
 if ($result->num_rows == 1) {
     // Login successful
     // Redirect to the specific page
-    $_SESSION['user_id'] = $user['email'];
+    $_SESSION['email'] = $email;
+    echo $_SESSION['user_id'];
     header("Location: ../Player Front Page.html");
+    echo $_SESSION['user_id'];
     exit();
 } else {
     // Login failed
