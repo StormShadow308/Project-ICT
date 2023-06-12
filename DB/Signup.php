@@ -38,11 +38,11 @@ if (mysqli_query($conn, $sqlaccount)) {
 
 if (mysqli_query($conn, $sqlpayment)) {
     echo "Payment Sucessfully inserted<br>";
-    //header("Location: ../Login.html");
 } else {
     echo "Error inserting";
     echo "<br>" . mysqli_error($conn);
 }
+header("Location: ../SucessupSignup.html");
 
 if (mysqli_query($conn, $sqlType)) {
     echo "<br>PlayerTYPE Sucessfully inserted<br>";
