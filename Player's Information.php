@@ -1,17 +1,31 @@
 <?php
-include("DB\PlayerInfo.php");
-// session_start();
-echo "<br>";
+session_start();
 print_r($_SESSION);
-echo "<br>";
-echo $_SESSION['user_id'];
-echo $_SESSION['email'];
-session_destroy();
-if (!isset($_SESSION['email'])) {
-  // User is not logged in, handle accordingly (e.g., redirect to login page)
-  header("Location: login.html");
-  exit();
+
+if ($_SESSION['loggedIn'] === true) {
+  echo "<br>loggedIn === true  Session is active";
+} else {
+  echo "<br>Loggedin false  Session is not active";
+  header("Location: Login.php");
 }
+// if (!isset($_SESSION['email'])) {
+// if ($_SESSION['loggedin'] == false) {
+//   // User is not logged in, handle accordingly (e.g., redirect to login page)
+//   // header("Location: login.php");
+//   echo "NO session";
+//   // exit();
+// }
+// else{
+//   echo "Logged IN";
+//   // session_start();
+//   // echo "<br>";
+//   // echo "<br>";
+//   // echo $_SESSION['user_id'];
+// // echo $_SESSION['email'];
+// // session_destroy();
+
+// }
+include("DB\PlayerInfo.php");
 // print_r($row); // Print the $singleData array
 $dob = $row['dob'];
 $currentDate = new DateTime();
@@ -56,11 +70,12 @@ $age = $birthDate->diff($currentDate)->y;
             <a href="contact .html.html">CONTACT</a>
           </li>
           <li>
-            <a href="Login.html">LOGOUT</a>
+            <a href="Logout.php">LOGOUT</a>
           </li>
         </ul>
       </div>
     </nav>
+
     <div class="player-info">
       <img src="Updated/neymar-png-44965.png">
       <div class="info">

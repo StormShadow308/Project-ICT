@@ -1,10 +1,12 @@
-
+<?php
+session_start();
+if ($_SESSION['loggedIn'] === true) {
+//   echo "<br>loggedIn === true  Session is active";
+} else {
+//   echo "<br>Loggedin false  Session is not active";
+  header("Location: Login.php");
+}?>
 <!DOCTYPE html>
-<?php if (!isset($_SESSION['email'])) {
-    // User is not logged in, handle accordingly (e.g., redirect to login page)
-    header("Location: login.html");
-    exit();
-  }?>
 <html>
 <head>
   <meta name="viewport" content="with=device-width, initial-scale=1.0">
@@ -38,7 +40,7 @@
                   <a href="contact .html.html">CONTACT</a>
               </li>
               <li>
-                <a href="Login.html">LOGOUT</a>
+                <a href="Logout.php">LOGOUT</a>
               </li>
           </ul>
       </div>
