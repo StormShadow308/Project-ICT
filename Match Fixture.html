@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coach's TEAMS</title>
+          <meta name="viewport" content="with=device-width, initial-scale=1.0">
+          <title>Sports Website Design</title>
+          <link rel="stylesheet" href="style.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="Match-Fixture">
+        <nav>
+            <a href="index.html"><img src="Updated/Barcelona-Logo.png"></a>
+            <div class="nav-links">
+                <i class="fa fa-times"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about .html.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="course .html.html">TEAMS</a>
+                    </li>
+                    <li>
+                        <a href="blog.html.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact .html.html">CONTACT</a>
+                    </li>
+                    <li>
+                      <a href="Login.html">LOGOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+      <div class="container">
+        <h1 class="page-title">Coach's Practice Match Fixture</h1>
+    
+        <form>
+          <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="opponent">Opponent:</label>
+            <input type="text" id="opponent" name="opponent" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="venue">Venue:</label>
+            <input type="text" id="venue" name="venue" required>
+          </div>
+    
+          <button type="submit" class="submit-btn">Add Match</button>
+        </form>
+    
+        <h2>Practice Match Fixture</h2>
+    
+        <table class="fixture-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Opponent</th>
+              <th>Venue</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Placeholder for fixture data -->
+            <tr>
+              <td>2022-01-01</td>
+              <td>Team A</td>
+              <td>Stadium X</td>
+            </tr>
+            <tr>
+              <td>2022-01-05</td>
+              <td>Team B</td>
+              <td>Stadium Y</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+</body>
+<style>
+    body 
+    {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .page-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-group select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .submit-btn {
+      background-color: transparent;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+        border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 0.5s;
+    }
+
+    .fixture-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .fixture-table th
+    {
+    padding: 10px;
+      text-align: center;
+      border: 1px solid #ccc;
+      color: black;
+    }
+    .fixture-table td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ccc;
+      color: antiquewhite;
+    }
+
+    .fixture-table th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</html>
