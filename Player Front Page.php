@@ -1,4 +1,10 @@
+
 <!DOCTYPE html>
+<?php if (!isset($_SESSION['email'])) {
+    // User is not logged in, handle accordingly (e.g., redirect to login page)
+    header("Location: login.html");
+    exit();
+  }?>
 <html>
 <head>
   <meta name="viewport" content="with=device-width, initial-scale=1.0">
@@ -10,18 +16,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 <body>
-    <?php
-session_start();
-echo "Session ID: " . session_id();
-
-// Check if the user is already logged in
-if(isset($_SESSION['user_id'])) {
-    // Echo the session ID
-    echo "Session ID: " . session_id();
-} else {
-    echo "User is not logged in.";
-}
-?>
   <section class="FourthHeader">
     <nav>
       <a href="index.html"><img src="Updated/Barcelona-Logo.png"></a>

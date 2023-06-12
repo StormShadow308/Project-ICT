@@ -6,7 +6,12 @@ print_r($_SESSION);
 echo "<br>";
 echo $_SESSION['user_id'];
 echo $_SESSION['email'];
-
+session_destroy();
+if (!isset($_SESSION['email'])) {
+  // User is not logged in, handle accordingly (e.g., redirect to login page)
+  header("Location: login.html");
+  exit();
+}
 // print_r($row); // Print the $singleData array
 $dob = $row['dob'];
 $currentDate = new DateTime();
