@@ -56,7 +56,7 @@ if ($_SESSION['loggedIn'] === true) {
         <div class="MyChoice">
             <img src="Updated/Fifth.jpeg">
             <div class="Magic">
-                <a href="Event Registration.html">Event Registration</a>
+                <a href="Coach Event Registration.html">Event Registration</a>
             </div>
         </div>
         <div class="Selection">

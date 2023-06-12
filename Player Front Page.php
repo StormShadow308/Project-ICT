@@ -83,7 +83,7 @@ if ($_SESSION['loggedIn'] === true) {
             <div class="Selection">
                 <img src="Updated/Sixth.jpeg">
                 <div class="Magic">
-                    <a href="Complain.html">Team</a>
+                    <a href="Teams.html">Team</a>
                 </div>
             </div>
         </div>
