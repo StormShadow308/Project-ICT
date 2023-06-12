@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coach's TEAMS</title>
+          <meta name="viewport" content="with=device-width, initial-scale=1.0">
+          <title>Sports Website Design</title>
+          <link rel="stylesheet" href="style.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="Coach-Team">
+        <nav>
+            <a href="index.html"><img src="Updated/Barcelona-Logo.png"></a>
+            <div class="nav-links">
+                <i class="fa fa-times"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about .html.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="course .html.html">TEAMS</a>
+                    </li>
+                    <li>
+                        <a href="blog.html.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact .html.html">CONTACT</a>
+                    </li>
+                    <li>
+                      <a href="Login.html">LOGOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="cont">
+            <h1 class="page-title">Coach's Team Information</h1>
+        
+            <div class="search-bar">
+              <input type="text" id="search" placeholder="Search by name or status">
+            </div>
+        
+            <div class="team-info">
+              <ul class="player-list">
+                <li class="player-item" data-name="John Doe" data-status="Active">
+                  <h3>John Doe</h3>
+                  <p>Status: Active</p>
+                  <p>Position: Forward</p>
+                  <p>Age: 25</p>
+                </li>
+                <li class="player-item" data-name="Jane Smith" data-status="Inactive">
+                  <h3>Jane Smith</h3>
+                  <p>Status: Inactive</p>
+                  <p>Position: Goalkeeper</p>
+                  <p>Age: 27</p>
+                </li>
+                <li class="player-item" data-name="Mike Johnson" data-status="Active">
+                  <h3>Mike Johnson</h3>
+                  <p>Status: Active</p>
+                  <p>Position: Midfielder</p>
+                  <p>Age: 23</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+    </section>
+  <script>
+    const searchInput = document.getElementById('search');
+    const playerItems = document.querySelectorAll('.player-item');
+
+    searchInput.addEventListener('keyup', function () {
+      const searchValue = searchInput.value.toLowerCase();
+
+      playerItems.forEach(function (item) {
+        const playerName = item.getAttribute('data-name').toLowerCase();
+        const playerStatus = item.getAttribute('data-status').toLowerCase();
+
+        if (playerName.includes(searchValue) || playerStatus.includes(searchValue)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  </script>
+</body>
+<style>
+    .page-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .player-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .player-item {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .player-item h3 {
+      margin: 0;
+    }
+
+    .player-item p {
+      margin: 0;
+    }
+  </style>
+</html>
