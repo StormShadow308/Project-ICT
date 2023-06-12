@@ -894,3 +894,90 @@ input[type="submit"]:hover
 {
     background-color: transparent;
 }
+.Payment-History
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("Updated/Benzema.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Naruto
+{
+    width: 95%;
+    margin: 0 auto;
+    padding: 3px;
+    margin-left: 5px;
+}
+.page-title 
+{
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e7d7b3;
+}
+.search-bar 
+{
+    margin-bottom: 20px;
+    width: 200px;
+    align-items: right;
+}
+.search-bar label
+{
+    color: #e7d7b3;
+    display: block;
+    margin-bottom: 5px;
+}
+.search-bar input[type="text"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fc8524;
+    border-radius: 5px;
+    background-color:transparent;
+}
+.search-bar input[type="text"]:focus
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 0.5s;
+}
+.search-bar input[type="text"]:placeholder
+{
+    color: #e7d7b3;
+}
+.search-bar
+{
+    align-items: left;
+    margin-left: 83%;
+    display: block;
+    margin-bottom: 100px;
+}
+.payment-table th 
+{
+    background-color: #e7d7b3;
+}
+.payment-table th,
+.payment-table td 
+{
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #e7d7b3;
+  font-weight: bold;
+}
+.payment-table 
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.payment-table td:last-child 
+{
+    text-align: right;
+}
+.total-amount 
+{
+    font-weight: bold;
+    text-align: right;
+}
