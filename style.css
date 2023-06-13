@@ -1314,3 +1314,19 @@ input[type="submit"]:hover
     background:#fc8524;
     transition: 0.5s;
 }
+.Login-id select
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(74, 94, 100);
+    color: antiquewhite;
+}
+.Login-id select:hover
+{
+    border: 1px solid#fc8524;
+    background:#fc8524;
+    transition: 0.5s;
+}

@@ -62,14 +62,14 @@ if ($_SESSION['loggedIn'] === true) {
         <br>
         <input type="email" id="email" name="email" placeholder="Email" required>
         <input type="password" id="password" name="password" placeholder="Password" required>
-        <div class="form-group">
-          <label for="Account_type">Complain Type</label>
+       
+          
           <select id="Account_type" name="Account_type" required>
             <option value="">Select Account type/Role</option>
             <option value="Coach">Coach</option>
             <option value="Player">Player</option>
           </select>
-        </div>
+        
         <button type="submit">Login</button>
         <p>Don't have an account? <a href="Signup.html">Sign up</a></p>
       </form>
