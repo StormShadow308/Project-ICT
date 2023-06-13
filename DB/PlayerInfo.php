@@ -5,7 +5,7 @@ require 'database_conn.php';
 $conn = connectDatabase();
 if(isset($_SESSION['email'])) {
 
-$query = "SELECT Name, email,dob FROM Person where email='" . $_SESSION['email'] . "'";
+$query = "SELECT * FROM Person where email='" . $_SESSION['email'] . "'";
 $result = mysqli_query($conn, $query);
 $row = $result->fetch_assoc();
 

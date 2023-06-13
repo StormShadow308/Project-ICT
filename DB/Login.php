@@ -31,6 +31,19 @@ if ($result->num_rows == 1) {
     } else {
         echo "<br>Session is not active";
     }
+    $query = "SELECT Nationality FROM Person where email='" . $_SESSION['email'] . "'";
+    $result = mysqli_query($conn, $query);
+    $row = $result->fetch_assoc();
+
+    if ($row['Nationality'] === "") {
+        // Nationality is set
+        echo "The nationality is not set.";
+        header("Location: ../Detail Signup.html");
+        exit();
+
+    } else {
+        echo "The nationality is: " . $row['Nationality'];
+    }
     header("Location: ../Player Front Page.php");
     exit();
 } else {

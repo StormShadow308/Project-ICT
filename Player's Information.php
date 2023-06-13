@@ -89,7 +89,7 @@ $age = $birthDate->diff($currentDate)->y;
         </div>
         <div class="info">
           <label>Nationality:</label>
-          <span>Brazil</span>
+          <span><?php echo $row['Nationality'] ?></span>
         </div>
         <div class="info">
           <label>Team:</label>
@@ -105,15 +105,15 @@ $age = $birthDate->diff($currentDate)->y;
         </div>
         <div class="info">
           <label>Height:</label>
-          <span>1.75m</span>
+          <span><?php echo $row['Height'] ?></span>
         </div>
         <div class="info">
           <label>Weight:</label>
-          <span>68KG</span>
+          <span><?php echo $row['Weight'] ?>KG</span>
         </div>
         <div class="info">
           <label>Disability:</label>
-          <span>None</span>
+          <span><?php echo $row['Disability'] ?></span>
         </div>
       </div>
     </div>

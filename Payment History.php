@@ -79,40 +79,8 @@ print_r($row); // Print the $singleData array
         <label for="yearInput">Search by Year:</label>
         <input type="text" id="yearInput" onkeyup="searchByYear()" placeholder="Enter year...">
       </div>
-      <table id="paymentTable" class="payment-table">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Payment ID</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Name</td>
-            <td>123456789</td>
-            <td>$50.00</td>
-          </tr>
-          <tr>
-            <td>2023-01-15</td>
-            <td>987654321</td>
-            <td>$30.00</td>
-          </tr>
-          <tr>
-            <td>2022-12-20</td>
-            <td>456789123</td>
-            <td>$25.00</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="2" class="total-amount">Total:</td>
-            <td>$105.00</td>
-          </tr>
-        </tfoot>
-      </table>
       <br>
-      <table class="table table-bordered">
+      <table id="paymentTable" class="payment-table">
         <thead>
           <tr>
             <th>Transaction ID</th>
