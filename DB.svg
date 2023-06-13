@@ -444,7 +444,7 @@
     ><g fill="white" text-rendering="geometricPrecision" fill-opacity="1" stroke-opacity="1" stroke="white"
     ><rect x="0" width="1074" height="804" y="0" stroke="none"
     /></g
-    ><g font-size="11px" transform="translate(380,0)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(380,0)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath1)" width="250" rx="10" ry="10" height="170" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(380,0)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -476,7 +476,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,20)" clip-path="url(#clipPath4)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,20)" clip-path="url(#clipPath4)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,38)" clip-path="url(#clipPath5)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABmElEQVR4XmNgoDVo
 CNXmmV6hlrO4Q2n14jbljfuWSnihqyEKrOqTn/PzHuPv3w8Z/n+/y/T/wBLx/weX
 is1EV4cXLGhSLnl6kuPPqwvS/49u7fq/Z03b/4Mr9P/vXyT+/+gKkQh09TjBkg6F
@@ -500,7 +500,7 @@ LpiGg0xMX/eysu7Zy8JyCyZ2gJn5Z4qdXbinpycfun44ANmS4OiYBLQd7ip03KOk
 tAnoQsO0tDRWdP1wALSF3dfXVxuoMLNTTW3fHCmpG+v4+F7OlZS83qukdCrV1nY6
 UN4f6i3ceQ0IGIEKuYABqQakfYAGpgFxPpCdDqRDfXx8LEGBDAp8dI1YAUhhQECA
 AFCjNFCjPNClMqC8BRTnYCDgEooBAMVf0aJncShdAAAAAElFTkSuQmCC" height="18" preserveAspectRatio="none" font-weight="bold"
-      /><line transform="translate(0,38)" clip-path="url(#clipPath5)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,38)" clip-path="url(#clipPath5)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,56)" clip-path="url(#clipPath6)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -510,7 +510,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Gender</text
       ><text x="99" xml:space="preserve" y="13" clip-path="url(#clipPath6)" transform="translate(0,56)" stroke="none"
       >tinyint(1)</text
-      ><line transform="translate(0,56)" clip-path="url(#clipPath6)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,56)" clip-path="url(#clipPath6)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,74)" clip-path="url(#clipPath7)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -520,7 +520,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Blood_Type</text
       ><text x="99" xml:space="preserve" y="13" clip-path="url(#clipPath7)" transform="translate(0,74)" stroke="none"
       >varchar(4)</text
-      ><line transform="translate(0,74)" clip-path="url(#clipPath7)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,74)" clip-path="url(#clipPath7)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,92)" clip-path="url(#clipPath8)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -530,7 +530,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Phone</text
       ><text x="99" xml:space="preserve" y="13" clip-path="url(#clipPath8)" transform="translate(0,92)" stroke="none"
       >int(11)</text
-      ><line transform="translate(0,92)" clip-path="url(#clipPath8)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,92)" clip-path="url(#clipPath8)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,110)" clip-path="url(#clipPath9)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -540,13 +540,13 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Joining Date</text
       ><text x="99" xml:space="preserve" y="13" clip-path="url(#clipPath9)" transform="translate(0,110)" stroke="none"
       >date</text
-      ><line transform="translate(0,110)" clip-path="url(#clipPath9)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,110)" clip-path="url(#clipPath9)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" transform="translate(380,0)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="107" xml:space="preserve" y="12" clip-path="url(#clipPath10)" stroke="none"
       >Person</text
     ></g
-    ><g font-size="11px" transform="translate(420,220)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(420,220)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath11)" width="180" rx="10" ry="10" height="80" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(420,220)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -581,14 +581,14 @@ I8sBAK/DBJK9idpeAAAAAElFTkSuQmCC" font-style="italic" height="18" preserveAspect
       ><text x="101" y="13" transform="translate(0,20)" clip-path="url(#clipPath14)" font-style="italic" stroke="none" font-weight="bold" xml:space="preserve"
       >varchar(110)</text
     ></g
-    ><g fill-opacity="1" text-rendering="geometricPrecision" stroke="rgb(255,255,174)" stroke-linecap="butt" transform="translate(420,255)" stroke-miterlimit="0" stroke-opacity="1" fill="rgb(255,255,174)" font-weight="bold" font-family="sans-serif" font-style="italic" stroke-linejoin="bevel" font-size="11px" image-rendering="optimizeQuality"
+    ><g fill-opacity="1" text-rendering="geometricPrecision" stroke="white" stroke-linecap="butt" transform="translate(420,255)" stroke-miterlimit="0" stroke-opacity="1" fill="white" font-weight="bold" font-family="sans-serif" font-style="italic" stroke-linejoin="bevel" font-size="11px" image-rendering="optimizeQuality"
     ><line y2="0" fill="none" x1="0" clip-path="url(#clipPath14)" x2="180" y1="0"
     /></g
     ><g font-size="11px" transform="translate(420,220)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="74" xml:space="preserve" y="12" clip-path="url(#clipPath15)" stroke="none"
       >Coach</text
     ></g
-    ><g font-size="11px" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath16)" width="240" rx="10" ry="10" height="160" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -619,7 +619,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Transaction_Name</text
       ><text x="131" xml:space="preserve" y="13" clip-path="url(#clipPath19)" transform="translate(0,20)" stroke="none"
       >varchar(255)</text
-      ><line transform="translate(0,20)" clip-path="url(#clipPath19)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,20)" clip-path="url(#clipPath19)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,38)" clip-path="url(#clipPath20)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABgElEQVR4XmNgwAJ0
 90dqoIuRDPROxEaorPW7ji5OEjC8kNSutiX4v/RM56eC9Sb7BepNdgPpyYINRj4M
 DQ4s6OoxgMP7AgHja+mbNXeH/5db4P5fpM3iOdCA/6jY+L5Ag2kCXgNN7+XE6ByO
@@ -634,7 +634,7 @@ AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
       >Member_email</text
       ><text x="131" y="13" transform="translate(0,38)" clip-path="url(#clipPath20)" font-style="italic" stroke="none" xml:space="preserve"
       >varchar(110)</text
-      ><line transform="translate(0,38)" clip-path="url(#clipPath20)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,38)" clip-path="url(#clipPath20)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,56)" clip-path="url(#clipPath21)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -644,7 +644,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Amount</text
       ><text x="131" xml:space="preserve" y="13" clip-path="url(#clipPath21)" transform="translate(0,56)" stroke="none"
       >int(10)</text
-      ><line transform="translate(0,56)" clip-path="url(#clipPath21)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,56)" clip-path="url(#clipPath21)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,74)" clip-path="url(#clipPath22)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -654,7 +654,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >DOP</text
       ><text x="131" xml:space="preserve" y="13" clip-path="url(#clipPath22)" transform="translate(0,74)" stroke="none"
       >date</text
-      ><line transform="translate(0,74)" clip-path="url(#clipPath22)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,74)" clip-path="url(#clipPath22)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,92)" clip-path="url(#clipPath23)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -670,7 +670,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,92)" clip-path="url(#clipPath23)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,92)" clip-path="url(#clipPath23)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,110)" clip-path="url(#clipPath24)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -686,13 +686,13 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,110)" clip-path="url(#clipPath24)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,110)" clip-path="url(#clipPath24)" fill="none" x1="0" x2="240" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="97" xml:space="preserve" y="12" clip-path="url(#clipPath25)" stroke="none"
       >Payment</text
     ></g
-    ><g font-size="11px" transform="translate(370,390)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(370,390)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath26)" width="250" rx="10" ry="10" height="100" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(370,390)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -737,7 +737,7 @@ AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
       >Team_Players</text
       ><text x="110" y="13" transform="translate(0,20)" clip-path="url(#clipPath29)" font-style="italic" stroke="none" xml:space="preserve"
       >varchar(110)</text
-      ><line transform="translate(0,20)" clip-path="url(#clipPath29)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,20)" clip-path="url(#clipPath29)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,38)" clip-path="url(#clipPath30)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABgElEQVR4XmNgwAJ0
 90dqoIuRDPROxEaorPW7ji5OEjC8kNSutiX4v/RM56eC9Sb7BepNdgPpyYINRj4M
 DQ4s6OoxgMP7AgHja+mbNXeH/5db4P5fpM3iOdCA/6jY+L5Ag2kCXgNN7+XE6ByO
@@ -752,7 +752,7 @@ AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
       >Teams_Sports</text
       ><text x="110" y="13" transform="translate(0,38)" clip-path="url(#clipPath30)" font-style="italic" stroke="none" xml:space="preserve"
       >varchar(100)</text
-      ><line transform="translate(0,38)" clip-path="url(#clipPath30)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,38)" clip-path="url(#clipPath30)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,56)" clip-path="url(#clipPath31)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABgElEQVR4XmNgwAJ0
 90dqoIuRDPROxEaorPW7ji5OEjC8kNSutiX4v/RM56eC9Sb7BepNdgPpyYINRj4M
 DQ4s6OoxgMP7AgHja+mbNXeH/5db4P5fpM3iOdCA/6jY+L5Ag2kCXgNN7+XE6ByO
@@ -773,13 +773,13 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,56)" clip-path="url(#clipPath31)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,56)" clip-path="url(#clipPath31)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" transform="translate(370,390)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="110" xml:space="preserve" y="12" clip-path="url(#clipPath10)" stroke="none"
       >Team</text
     ></g
-    ><g font-size="11px" transform="translate(810,280)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(810,280)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath32)" width="260" rx="10" ry="10" height="170" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(810,280)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -825,7 +825,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,20)" clip-path="url(#clipPath35)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,20)" clip-path="url(#clipPath35)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,38)" clip-path="url(#clipPath36)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABgElEQVR4XmNgwAJ0
 90dqoIuRDPROxEaorPW7ji5OEjC8kNSutiX4v/RM56eC9Sb7BepNdgPpyYINRj4M
 DQ4s6OoxgMP7AgHja+mbNXeH/5db4P5fpM3iOdCA/6jY+L5Ag2kCXgNN7+XE6ByO
@@ -846,7 +846,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,38)" clip-path="url(#clipPath36)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,38)" clip-path="url(#clipPath36)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,56)" clip-path="url(#clipPath37)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABgElEQVR4XmNgwAJ0
 90dqoIuRDPROxEaorPW7ji5OEjC8kNSutiX4v/RM56eC9Sb7BepNdgPpyYINRj4M
 DQ4s6OoxgMP7AgHja+mbNXeH/5db4P5fpM3iOdCA/6jY+L5Ag2kCXgNN7+XE6ByO
@@ -861,7 +861,7 @@ AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
       >Team</text
       ><text x="113" y="13" transform="translate(0,56)" clip-path="url(#clipPath37)" font-style="italic" stroke="none" xml:space="preserve"
       >int(10)</text
-      ><line transform="translate(0,56)" clip-path="url(#clipPath37)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,56)" clip-path="url(#clipPath37)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,74)" clip-path="url(#clipPath38)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -871,7 +871,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Event Date</text
       ><text x="113" xml:space="preserve" y="13" clip-path="url(#clipPath38)" transform="translate(0,74)" stroke="none"
       >date</text
-      ><line transform="translate(0,74)" clip-path="url(#clipPath38)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,74)" clip-path="url(#clipPath38)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,92)" clip-path="url(#clipPath39)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -881,7 +881,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Event Time</text
       ><text x="113" xml:space="preserve" y="13" clip-path="url(#clipPath39)" transform="translate(0,92)" stroke="none"
       >time(6)</text
-      ><line transform="translate(0,92)" clip-path="url(#clipPath39)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,92)" clip-path="url(#clipPath39)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,110)" clip-path="url(#clipPath40)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABgElEQVR4XmNgwAJ0
 90dqoIuRDPROxEaorPW7ji5OEjC8kNSutiX4v/RM56eC9Sb7BepNdgPpyYINRj4M
 DQ4s6OoxgMP7AgHja+mbNXeH/5db4P5fpM3iOdCA/6jY+L5Ag2kCXgNN7+XE6ByO
@@ -896,13 +896,13 @@ AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
       >Event Locatiion</text
       ><text x="113" y="13" transform="translate(0,110)" clip-path="url(#clipPath40)" font-style="italic" stroke="none" xml:space="preserve"
       >int(11)</text
-      ><line transform="translate(0,110)" clip-path="url(#clipPath40)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,110)" clip-path="url(#clipPath40)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" transform="translate(810,280)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="115" xml:space="preserve" y="12" clip-path="url(#clipPath41)" stroke="none"
       >Event</text
     ></g
-    ><g font-size="11px" transform="translate(0,370)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(0,370)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath42)" width="260" rx="10" ry="10" height="60" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(0,370)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -948,13 +948,13 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,20)" clip-path="url(#clipPath45)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,20)" clip-path="url(#clipPath45)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" transform="translate(0,370)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="106" xml:space="preserve" y="12" clip-path="url(#clipPath41)" stroke="none"
       >Equiment</text
     ></g
-    ><g font-size="11px" transform="translate(770,20)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(770,20)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath46)" width="260" rx="10" ry="10" height="100" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(770,20)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -997,7 +997,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Password</text
       ><text x="108" xml:space="preserve" y="13" clip-path="url(#clipPath49)" transform="translate(0,20)" stroke="none"
       >varchar(255)</text
-      ><line transform="translate(0,20)" clip-path="url(#clipPath49)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,20)" clip-path="url(#clipPath49)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,38)" clip-path="url(#clipPath50)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -1007,13 +1007,13 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Account_Type</text
       ><text x="108" xml:space="preserve" y="13" clip-path="url(#clipPath50)" transform="translate(0,38)" stroke="none"
       >varchar(50)</text
-      ><line transform="translate(0,38)" clip-path="url(#clipPath50)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,38)" clip-path="url(#clipPath50)" fill="none" x1="0" x2="260" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" transform="translate(770,20)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="93" xml:space="preserve" y="12" clip-path="url(#clipPath41)" stroke="none"
       >Account_Login</text
     ></g
-    ><g font-size="11px" transform="translate(800,523)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(800,523)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath26)" width="250" rx="10" ry="10" height="100" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(800,523)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -1058,7 +1058,7 @@ AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
       >Participating_Teams</text
       ><text x="138" y="13" transform="translate(0,20)" clip-path="url(#clipPath29)" font-style="italic" stroke="none" xml:space="preserve"
       >int(10)</text
-      ><line transform="translate(0,20)" clip-path="url(#clipPath29)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,20)" clip-path="url(#clipPath29)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,38)" clip-path="url(#clipPath30)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABgElEQVR4XmNgwAJ0
 90dqoIuRDPROxEaorPW7ji5OEjC8kNSutiX4v/RM56eC9Sb7BepNdgPpyYINRj4M
 DQ4s6OoxgMP7AgHja+mbNXeH/5db4P5fpM3iOdCA/6jY+L5Ag2kCXgNN7+XE6ByO
@@ -1073,7 +1073,7 @@ AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
       >Winning_Team</text
       ><text x="138" y="13" transform="translate(0,38)" clip-path="url(#clipPath30)" font-style="italic" stroke="none" xml:space="preserve"
       >int(10)</text
-      ><line transform="translate(0,38)" clip-path="url(#clipPath30)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,38)" clip-path="url(#clipPath30)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,56)" clip-path="url(#clipPath31)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -1089,13 +1089,13 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,56)" clip-path="url(#clipPath31)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,56)" clip-path="url(#clipPath31)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" transform="translate(800,523)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="108" xml:space="preserve" y="12" clip-path="url(#clipPath10)" stroke="none"
       >Result</text
     ></g
-    ><g font-size="11px" transform="translate(150,220)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(150,220)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath51)" width="260" rx="10" ry="10" height="80" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(150,220)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -1136,14 +1136,14 @@ I8sBAK/DBJK9idpeAAAAAElFTkSuQmCC" font-style="italic" height="18" preserveAspect
       ><text x="157" y="13" transform="translate(0,20)" clip-path="url(#clipPath54)" font-style="italic" stroke="none" font-weight="bold" xml:space="preserve"
       >varchar(110)</text
     ></g
-    ><g fill-opacity="1" text-rendering="geometricPrecision" stroke="rgb(255,255,174)" stroke-linecap="butt" transform="translate(150,255)" stroke-miterlimit="0" stroke-opacity="1" fill="rgb(255,255,174)" font-weight="bold" font-family="sans-serif" font-style="italic" stroke-linejoin="bevel" font-size="11px" image-rendering="optimizeQuality"
+    ><g fill-opacity="1" text-rendering="geometricPrecision" stroke="white" stroke-linecap="butt" transform="translate(150,255)" stroke-miterlimit="0" stroke-opacity="1" fill="white" font-weight="bold" font-family="sans-serif" font-style="italic" stroke-linejoin="bevel" font-size="11px" image-rendering="optimizeQuality"
     ><line y2="0" fill="none" x1="0" clip-path="url(#clipPath54)" x2="260" y1="0"
     /></g
     ><g font-size="11px" transform="translate(150,220)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="113" xml:space="preserve" y="12" clip-path="url(#clipPath41)" stroke="none"
       >Player</text
     ></g
-    ><g font-size="11px" transform="translate(380,524)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(380,524)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath55)" width="250" rx="10" ry="10" height="140" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(380,524)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -1180,7 +1180,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,20)" clip-path="url(#clipPath58)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,20)" clip-path="url(#clipPath58)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,38)" clip-path="url(#clipPath59)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -1196,7 +1196,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,38)" clip-path="url(#clipPath59)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,38)" clip-path="url(#clipPath59)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,56)" clip-path="url(#clipPath60)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -1212,7 +1212,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,56)" clip-path="url(#clipPath60)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,56)" clip-path="url(#clipPath60)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,74)" clip-path="url(#clipPath61)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -1228,13 +1228,13 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,74)" clip-path="url(#clipPath61)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,74)" clip-path="url(#clipPath61)" fill="none" x1="0" x2="250" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" transform="translate(380,524)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="94" xml:space="preserve" y="12" clip-path="url(#clipPath10)" stroke="none"
       >Event_Place</text
     ></g
-    ><g font-size="11px" transform="translate(120,524)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(120,524)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath62)" width="220" rx="10" ry="10" height="80" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(120,524)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -1274,7 +1274,7 @@ IqoZhA/gNUjCKeeXtGveX2IwSC26fqoAAJ39TRmoGdqcAAAAAElFTkSuQmCC" height="18" preser
       >Min_Players</text
       ><text x="106" xml:space="preserve" y="13" clip-path="url(#clipPath65)" transform="translate(0,20)" stroke="none"
       >int(11)</text
-      ><line transform="translate(0,20)" clip-path="url(#clipPath65)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,20)" clip-path="url(#clipPath65)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,38)" clip-path="url(#clipPath66)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -1290,7 +1290,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,38)" clip-path="url(#clipPath66)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,38)" clip-path="url(#clipPath66)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" transform="translate(120,524)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="79" xml:space="preserve" y="12" clip-path="url(#clipPath67)" stroke="none"
@@ -1346,7 +1346,7 @@ I8sBAK/DBJK9idpeAAAAAElFTkSuQmCC" font-style="italic" height="18" preserveAspect
     ><text x="50" xml:space="preserve" y="12" clip-path="url(#clipPath72)" stroke="none"
       >Event_Place_Sports Type</text
     ></g
-    ><g font-size="11px" transform="translate(610,220)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(610,220)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath73)" width="180" rx="10" ry="10" height="60" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(610,220)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -1385,7 +1385,7 @@ I8sBAK/DBJK9idpeAAAAAElFTkSuQmCC" font-style="italic" height="18" preserveAspect
     ><g font-size="11px" transform="translate(330,700)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="'Tahoma'" stroke="black" stroke-opacity="1"
     ><path d="M8.8906 14.9072 L8.0469 14.9072 L5.2031 8.4385 L5.0625 8.4385 L5.0625 17.251 L6.4219 17.251 Q6.6875 17.251 6.7969 17.3604 Q6.9219 17.4541 6.9219 17.6104 Q6.9219 17.7666 6.7969 17.876 Q6.6875 17.9854 6.4219 17.9854 L3.7031 17.9854 Q3.4375 17.9854 3.3281 17.876 Q3.2188 17.7666 3.2188 17.6104 Q3.2188 17.4541 3.3281 17.3604 Q3.4375 17.251 3.7031 17.251 L4.3281 17.251 L4.3281 8.4385 L3.8594 8.4385 Q3.5938 8.4385 3.4844 8.3447 Q3.375 8.2354 3.375 8.0635 Q3.375 7.9072 3.4844 7.8135 Q3.5938 7.7041 3.8594 7.7041 L5.6719 7.7041 L8.4688 14.0635 L11.2188 7.7041 L13.0312 7.7041 Q13.2969 7.7041 13.4062 7.8135 Q13.5312 7.9072 13.5312 8.0635 Q13.5312 8.2354 13.4062 8.3447 Q13.2969 8.4385 13.0312 8.4385 L12.5781 8.4385 L12.5781 17.251 L13.1875 17.251 Q13.4531 17.251 13.5625 17.3604 Q13.6875 17.4541 13.6875 17.6104 Q13.6875 17.7666 13.5625 17.876 Q13.4531 17.9854 13.1875 17.9854 L10.4688 17.9854 Q10.2031 17.9854 10.0781 17.876 Q9.9688 17.7666 9.9688 17.6104 Q9.9688 17.4541 10.0781 17.3604 Q10.2031 17.251 10.4688 17.251 L11.8281 17.251 L11.8281 8.4385 L11.6719 8.4385 L8.8906 14.9072 ZM19.25 10.376 L19.5625 10.376 Q20.0625 10.376 20.4062 10.7354 Q20.7656 11.0791 20.7656 11.5635 Q20.7656 12.0791 20.4062 12.4229 Q20.0469 12.7666 19.5625 12.7666 L19.25 12.7666 Q18.75 12.7666 18.3906 12.4229 Q18.0469 12.0635 18.0469 11.5791 Q18.0469 11.0635 18.4062 10.7197 Q18.7656 10.376 19.25 10.376 ZM19.25 15.8604 L19.5625 15.8604 Q20.0625 15.8604 20.4062 16.2197 Q20.7656 16.5635 20.7656 17.0479 Q20.7656 17.5635 20.4062 17.9072 Q20.0469 18.251 19.5625 18.251 L19.25 18.251 Q18.75 18.251 18.3906 17.9072 Q18.0469 17.5479 18.0469 17.0635 Q18.0469 16.5479 18.4062 16.2041 Q18.7656 15.8604 19.25 15.8604 ZM30.8906 14.9072 L30.0469 14.9072 L27.2031 8.4385 L27.0625 8.4385 L27.0625 17.251 L28.4219 17.251 Q28.6875 17.251 28.7969 17.3604 Q28.9219 17.4541 28.9219 17.6104 Q28.9219 17.7666 28.7969 17.876 Q28.6875 17.9854 28.4219 17.9854 L25.7031 17.9854 Q25.4375 17.9854 25.3281 17.876 Q25.2188 17.7666 25.2188 17.6104 Q25.2188 17.4541 25.3281 17.3604 Q25.4375 17.251 25.7031 17.251 L26.3281 17.251 L26.3281 8.4385 L25.8594 8.4385 Q25.5938 8.4385 25.4844 8.3447 Q25.375 8.2354 25.375 8.0635 Q25.375 7.9072 25.4844 7.8135 Q25.5938 7.7041 25.8594 7.7041 L27.6719 7.7041 L30.4688 14.0635 L33.2188 7.7041 L35.0312 7.7041 Q35.2969 7.7041 35.4062 7.8135 Q35.5312 7.9072 35.5312 8.0635 Q35.5312 8.2354 35.4062 8.3447 Q35.2969 8.4385 35.0312 8.4385 L34.5781 8.4385 L34.5781 17.251 L35.1875 17.251 Q35.4531 17.251 35.5625 17.3604 Q35.6875 17.4541 35.6875 17.6104 Q35.6875 17.7666 35.5625 17.876 Q35.4531 17.9854 35.1875 17.9854 L32.4688 17.9854 Q32.2031 17.9854 32.0781 17.876 Q31.9688 17.7666 31.9688 17.6104 Q31.9688 17.4541 32.0781 17.3604 Q32.2031 17.251 32.4688 17.251 L33.8281 17.251 L33.8281 8.4385 L33.6719 8.4385 L30.8906 14.9072 Z" stroke="none" clip-path="url(#clipPath77)"
     /></g
-    ><g font-size="11px" transform="translate(815,150)" fill-opacity="1" fill="rgb(245,182,122)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(245,182,122)" stroke-opacity="1"
+    ><g font-size="11px" transform="translate(815,150)" fill-opacity="1" fill="rgb(224,224,224)" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="rgb(224,224,224)" stroke-opacity="1"
     ><rect x="0" y="0" clip-path="url(#clipPath78)" width="220" rx="10" ry="10" height="100" stroke="none"
     /></g
     ><g stroke-linecap="butt" font-size="11px" transform="translate(815,150)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke-linejoin="round" stroke="black" stroke-opacity="1" stroke-miterlimit="0"
@@ -1421,7 +1421,7 @@ AElFTkSuQmCC" font-style="italic" height="18" preserveAspectRatio="none"
       >complainant</text
       ><text x="124" y="13" transform="translate(0,20)" clip-path="url(#clipPath81)" font-style="italic" stroke="none" xml:space="preserve"
       >varchar(110)</text
-      ><line transform="translate(0,20)" clip-path="url(#clipPath81)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="rgb(255,255,174)"
+      ><line transform="translate(0,20)" clip-path="url(#clipPath81)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,38)" clip-path="url(#clipPath82)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -1437,7 +1437,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,38)" clip-path="url(#clipPath82)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,38)" clip-path="url(#clipPath82)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="white"
       /><image x="4" y="0" transform="translate(0,56)" clip-path="url(#clipPath83)" width="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAtElEQVR4XmNgoAVg
 Lbn8n6P06n92IGYD4ZIr/1mhmKUYgpmLIJip8NJ/dP1wwF565f/+B1//b7z+6f+i
 s+//Tz7y5n/rrpf/yzY8/5+x/Mn/yLkP/3tPvvffpvM20KDLQ8kgxvwL/3krrxOF
@@ -1453,7 +1453,7 @@ Ei+JtAbGv2osMTW1Lx5CKjjn0HTf1pi5yHb5EIUQktYaTdhNvwggV8uRxkTAWovG
 cVFp7BZ57+uYiPIxwWERLhoXDmKMVXxYJHl+AgXIQJdIgtHY0iuajDF1NyMi8Gzn
 /xERvg4WbhbjZc9CnselS+5r1w6kFgGi/TFvEvM6D8m1qZ2QN3qCbj75/eStAAAA
 AElFTkSuQmCC" height="18" preserveAspectRatio="none"
-      /><line transform="translate(0,56)" clip-path="url(#clipPath83)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="rgb(255,255,174)"
+      /><line transform="translate(0,56)" clip-path="url(#clipPath83)" fill="none" x1="0" x2="220" y1="0" y2="0" stroke="white"
     /></g
     ><g font-size="11px" transform="translate(815,150)" fill-opacity="1" fill="black" text-rendering="geometricPrecision" image-rendering="optimizeQuality" font-family="sans-serif" stroke="black" stroke-opacity="1"
     ><text x="86" xml:space="preserve" y="12" clip-path="url(#clipPath67)" stroke="none"
