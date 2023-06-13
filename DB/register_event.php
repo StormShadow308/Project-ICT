@@ -18,34 +18,33 @@ else
     echo "Connection Sucessful";
 echo "<br>";
 $sql = "INSERT INTO person (name, dob, email) VALUES ('$username', '$dob', '$email')";
-if (mysqli_query($conn, $sql)) {
-    echo "Person Sucessfully inserted<br>";
-} else {
-    echo "Person Error inserting";
-    echo "<br>" . mysqli_error($conn);
-}
-$sqlaccount = "INSERT INTO account_login (email, password, account_type) VALUES ('$email', '$password', '$Account_type')";
+$sqlaccount = "INSERT INTO account_login (email, password, account_type) VALUES ('$email', '$password', 'Account_type')";
 $sqlpayment = "INSERT INTO Payment (Transaction_Name, Member_email, Amount, DOP, time) VALUES ('Membership Fee','$email', '1500', CURDATE(), CURTIME())";
 if ($Account_type === "Player") {
     $sqlType = "INSERT INTO Player (PlayerEmail	, Member_Renewal_Date) VALUES ('$email', DATE_ADD(CURDATE(), INTERVAL 6 MONTH))";
     if (mysqli_query($conn, $sqlType)) {
         echo "<br>PlayerTYPE Sucessfully inserted<br>";
     } else {
-        echo "playerTYPE Error inserting";
+        echo "PlayerTYPE Error inserting";
         echo "<br>" . mysqli_error($conn);
     }
 }
 else{
     $sqlType = "INSERT INTO Coach (CoachEmail, Salary) VALUES ('$email', '1000')";
     if (mysqli_query($conn, $sqlType)) {
-        echo "<br>CoachTYPE Sucessfully inserted<br>";
+        echo "<br>PlayerTYPE Sucessfully inserted<br>";
     } else {
-        echo "CoachTYPE Error inserting";
+        echo "PlayerTYPE Error inserting";
         echo "<br>" . mysqli_error($conn);
     }
 }
 
-
+if (mysqli_query($conn, $sql)) {
+    echo "Person Sucessfully inserted<br>";
+} else {
+    echo "Person Error inserting";
+    echo "<br>" . mysqli_error($conn);
+}
 
 if (mysqli_query($conn, $sqlaccount)) {
     echo "Accountlogin Sucessfully inserted<br>";

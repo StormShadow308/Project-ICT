@@ -3,6 +3,8 @@ require 'database_conn.php';
 echo "<br><br>";
 $email = $_POST['email'];
 $password = $_POST['password'];
+$AccountType = $_POST['Account_type'];
+
 print_r($_POST);
 echo "<br>";
 
@@ -44,7 +46,10 @@ if ($result->num_rows == 1) {
     } else {
         echo "The nationality is: " . $row['Nationality'];
     }
+    if($AccountType === "Player")
     header("Location: ../Player Front Page.php");
+    else
+    header("Location: ../Coach View.php");
     exit();
 } else {
     // Login failed
