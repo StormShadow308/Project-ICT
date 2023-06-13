@@ -43,6 +43,10 @@ CREATE TABLE Team (
   Teams_Sports varchar(100) NOT NULL, 
   Coach        varchar(110), 
   PRIMARY KEY (Team_ID));
+CREATE TABLE Coach (
+  Salary     int(10) NOT NULL, 
+  CoachEmail varchar(110) NOT NULL, 
+  PRIMARY KEY (CoachEmail));
 CREATE TABLE Account_Login (
   Email        varchar(110) NOT NULL, 
   Password     varchar(255) NOT NULL, 
@@ -57,6 +61,10 @@ CREATE TABLE Person (
   Phone          int(11) NOT NULL, 
   `Joining Date` date NOT NULL, 
   PRIMARY KEY (Email));
+CREATE TABLE Equiment (
+  Equiment_Name      varchar(60) NOT NULL, 
+  Number_of_Equiment int(10), 
+  PRIMARY KEY (Equiment_Name));
 CREATE TABLE Payment (
   Transaction_ID    int(11) NOT NULL AUTO_INCREMENT, 
   Transaction_Name  varchar(255) NOT NULL, 
@@ -66,15 +74,24 @@ CREATE TABLE Payment (
   Transaction_Notes varchar(255), 
   Time              time(6), 
   PRIMARY KEY (Transaction_ID));
+CREATE TABLE Complain (
+  Complain_ID      int(11) NOT NULL AUTO_INCREMENT, 
+  complainant      varchar(110) NOT NULL, 
+  `Complain Type`  varchar(50), 
+  Complain_Details varchar(255), 
+  PRIMARY KEY (Complain_ID));
 ALTER TABLE `Event_Place_Sports Type` ADD CONSTRAINT FKEvent_Plac494086 FOREIGN KEY (Event_PlacePlace_id) REFERENCES Event_Place (Place_id);
 ALTER TABLE `Event_Place_Sports Type` ADD CONSTRAINT FKEvent_Plac905530 FOREIGN KEY (`Sports TypeSports Name`) REFERENCES `Sports Type` (`Sports Name`);
 ALTER TABLE Result ADD CONSTRAINT has FOREIGN KEY (Participating_Teams) REFERENCES Event (`Event ID`);
 ALTER TABLE Event ADD CONSTRAINT Participates FOREIGN KEY (Team) REFERENCES Team (Team_ID);
+ALTER TABLE Team ADD CONSTRAINT Trains FOREIGN KEY (Coach) REFERENCES Coach (CoachEmail);
 ALTER TABLE Team ADD CONSTRAINT FKTeam916130 FOREIGN KEY (Teams_Sports) REFERENCES `Sports Type` (`Sports Name`);
 ALTER TABLE Event ADD CONSTRAINT takesplacein FOREIGN KEY (`Event Locatiion`) REFERENCES Event_Place (Place_id);
 ALTER TABLE Result ADD CONSTRAINT Win FOREIGN KEY (Winning_Team) REFERENCES Event (`Event ID`);
 ALTER TABLE Account_Login ADD CONSTRAINT Login FOREIGN KEY (Email) REFERENCES Person (Email);
 ALTER TABLE Referee ADD CONSTRAINT `Is (Mandatory)` FOREIGN KEY (RefereeEmail) REFERENCES Person (Email);
+ALTER TABLE Coach ADD CONSTRAINT FKCoach940109 FOREIGN KEY (CoachEmail) REFERENCES Person (Email);
 ALTER TABLE Player ADD CONSTRAINT FKPlayer902072 FOREIGN KEY (PlayerEmail) REFERENCES Person (Email);
 ALTER TABLE Event ADD CONSTRAINT Supervise FOREIGN KEY (RefereeEmail) REFERENCES Referee (RefereeEmail);
 ALTER TABLE Payment ADD CONSTRAINT `Pays/Receives` FOREIGN KEY (Member_email) REFERENCES Person (Email);
+ALTER TABLE Complain ADD CONSTRAINT FKComplain568729 FOREIGN KEY (complainant) REFERENCES Person (Email);
